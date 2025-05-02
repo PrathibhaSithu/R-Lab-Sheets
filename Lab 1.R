@@ -88,7 +88,16 @@ mylist$scores
 m <- matrix(1:6, nrow=2, ncol=3)
 m[1,2]  # Access element in 1st row, 2nd column
 
+df <- data.frame(
+  name = c("A", "B"),
+  age = c(20, 21),
+  passed = c(TRUE, FALSE)
+)
 
+df$name    # Access 'name' column
+df[1, 2]   # First row, second column
+
+data.frame(name=c("A", "B"), stringsAsFactors=FALSE)
 
 
 
