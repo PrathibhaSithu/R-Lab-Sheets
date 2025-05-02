@@ -1,4 +1,4 @@
-setwd("E:\\SLIIT\\4th Year\\2nd Semester\\Repeat\\PS\\Labs\\Lab 02-20250502")
+setwd("E:\\SLIIT\\4th Year\\2nd Semester\\Repeat\\PS\\Labs\\Labsheets")
 getwd()
 
 ### Control Statement
@@ -47,6 +47,8 @@ while (x <= 5) {
 for (i in 1:10) {
   print(i)
 }
+
+
 
 
 
