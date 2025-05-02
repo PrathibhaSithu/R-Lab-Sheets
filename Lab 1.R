@@ -85,8 +85,15 @@ mylist <- list(name="John", age=25, scores=c(85, 90))
 mylist$name   # Access "name"
 mylist$scores
 
-m <- matrix(1:6, nrow=2, ncol=3)
+m <- matrix(1:8, nrow=2, ncol=4, byrow = TRUE)
 m[1,2]  # Access element in 1st row, 2nd column
+m
+class(m)
+
+n <- matrix(1:8, nrow=2, ncol=4, byrow = FALSE)
+n[1,2]  # Access element in 1st row, 2nd column
+n
+class(n)
 
 df <- data.frame(
   name = c("A", "B"),
