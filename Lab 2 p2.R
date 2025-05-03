@@ -55,6 +55,27 @@ fun1(8,4,2)
 
 
 # q1
+QuadricRoot<-function(a,b,c){
+  x1=(-b+sqrt(b^2-4*a*c))/2*a
+  x2=(-b-sqrt(b^2-4*a*c))/2*a
+  
+  print(x1)
+  print(x2)
+}
+
+QuadricRoot(2,3,1)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
