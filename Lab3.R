@@ -24,7 +24,8 @@ acc.freq<-table(Accomodation)
 gender.freq
 
 # pie chart
-
+pie(gender.freq,"Gender")
+pie(acc.freq,"Accomodation")
 
 
 
