@@ -24,13 +24,37 @@ dataframe1<-data.frame(index,Name,marks)
 dataframe1
 
 
+write.csv(dataframe1,"datafame1.csv")
+
+data2<-read.csv("datafame1.csv")
+fix("data2")
+data2
+
+# write a txt file
+write.table(dataframe1, "datframe1.txt")
+
+data3<-read.table("datframe1.txt", header=TRUE, sep = ",")
+data3
+fix("data3")
+
+greet <- function(name) {
+  print(paste("Hello", name))
+}
+greet("Ravi")
+
+fun1<-function(a,b,c){
+  y<-a+b
+  d<-a+b*c
+  print(y)
+  print(d)
+}
+
+fun1(8,4,2)
 
 
 
 
-
-
-
+# q1
 
 
 
